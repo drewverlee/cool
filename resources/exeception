@@ -1,0 +1,146 @@
+-- Spec failed --------------------
+
+  []
+
+evaluated from
+
+  refresh-dirs
+
+should satisfy
+
+  seq
+
+evaluated from
+
+  seq
+
+-------------------------
+Detected 1 error
+
+-- Spec failed --------------------
+
+  []
+
+evaluated from
+
+  refresh-dirs
+
+should satisfy
+
+  seqG
+
+evaluated from
+
+  seq
+
+-------------------------
+Detected 1 error
+
+
+clojure.lang.ExceptionInfo: Validation failed
+{:explanation "[] - failed: seq\n", :spec-object #function[clojure.core/seq--5402], :spec seq, :quoted-spec seq, :faulty-value-object [], :quoted-faulty-value refresh-dirs, :faulty-value refresh-dirs}
+ at formatting_stack.strategies$namespaces_within_refresh_dirs_only.invokeStatic (strategies.clj:160)
+    formatting_stack.strategies$namespaces_within_refresh_dirs_only.doInvoke (strategies.clj:146)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    formatting_stack.core$files_from_strategies$fn__45089.invoke (core.clj:18)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:343)
+    clojure.core$reduce.invokeStatic (core.clj:6827)
+    clojure.core$reduce.invoke (core.clj:6810)
+    formatting_stack.core$files_from_strategies.invokeStatic (core.clj:17)
+    formatting_stack.core$files_from_strategies.invoke (core.clj:15)
+    formatting_stack.core$process_BANG_$fn__45092.invoke (core.clj:30)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$memoize$fn__6877.doInvoke (core.clj:6353)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    formatting_stack.core$process_BANG_$fn__45097.invoke (core.clj:37)
+    clojure.core$map$fn__5866.invoke (core.clj:2753)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.RT.seq (RT.java:535)
+    clojure.core$seq__5402.invokeStatic (core.clj:137)
+    clojure.core$apply.invokeStatic (core.clj:660)
+    clojure.core$mapcat.invokeStatic (core.clj:2783)
+    clojure.core$mapcat.doInvoke (core.clj:2783)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    formatting_stack.core$process_BANG_.invokeStatic (core.clj:33)
+    formatting_stack.core$process_BANG_.invoke (core.clj:22)
+    formatting_stack.core$format_BANG_$fn__45113.invoke (core.clj:71)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1973)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1973)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.core$apply.invokeStatic (core.clj:669)
+    clojure.core$bound_fn_STAR_$fn__5749.doInvoke (core.clj:2003)
+    clojure.lang.RestFn.invoke (RestFn.java:397)
+    formatting_stack.background$eval44393$fn__44394$fn__44395.invoke (background.clj:13)
+    formatting_stack.background$eval44393$fn__44394.invoke (background.clj:12)
+    clojure.core$binding_conveyor_fn$fn__5754.invoke (core.clj:2030)
+    clojure.lang.AFn.call (AFn.java:18)
+    java.util.concurrent.FutureTask.run (FutureTask.java:264)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1128)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:628)
+    java.lang.Thread.run (Thread.java:834)
+
+clojure.lang.ExceptionInfo: Validation failed
+{:explanation "[] - failed: seq\n", :spec-object #function[clojure.core/seq--5402], :spec seq, :quoted-spec seq, :faulty-value-object [], :quoted-faulty-value refresh-dirs, :faulty-value refresh-dirs}
+ at formatting_stack.strategies$namespaces_within_refresh_dirs_only.invokeStatic (strategies.clj:160)
+    formatting_stack.strategies$namespaces_within_refresh_dirs_only.doInvoke (strategies.clj:146)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    formatting_stack.core$files_from_strategies$fn__45089.invoke (core.clj:18)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:343)
+    clojure.core$reduce.invokeStatic (core.clj:6827)
+    clojure.core$reduce.invoke (core.clj:6810)
+    formatting_stack.core$files_from_strategies.invokeStatic (core.clj:17)
+    formatting_stack.core$files_from_strategies.invoke (core.clj:15)
+    formatting_stack.core$process_BANG_$fn__45092.invoke (core.clj:30)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$memoize$fn__6877.doInvoke (core.clj:6353)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    formatting_stack.core$process_BANG_$fn__45097.invoke (core.clj:37)
+    clojure.core$map$fn__5866.invoke (core.clj:2753)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.RT.seq (RT.java:535)
+    clojure.core$seq__5402.invokeStatic (core.clj:137)
+    clojure.core$apply.invokeStatic (core.clj:660)
+    clojure.core$mapcat.invokeStatic (core.clj:2783)
+    clojure.core$mapcat.doInvoke (core.clj:2783)
+    clojure.lang.RestFn.invoke (RestFn.java:423)
+    formatting_stack.core$process_BANG_.invokeStatic (core.clj:33)
+    formatting_stack.core$process_BANG_.invoke (core.clj:22)
+    formatting_stack.core$format_BANG_$fn__45113.invoke (core.clj:72)
+    clojure.lang.AFn.applyToHelper (AFn.java:152)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$with_bindings_STAR_.invokeStatic (core.clj:1973)
+    clojure.core$with_bindings_STAR_.doInvoke (core.clj:1973)
+    clojure.lang.RestFn.invoke (RestFn.java:425)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.core$apply.invokeStatic (core.clj:669)
+    clojure.core$bound_fn_STAR_$fn__5749.doInvoke (core.clj:2003)
+    clojure.lang.RestFn.invoke (RestFn.java:397)
+    formatting_stack.background$eval44393$fn__44394$fn__44395.invoke (background.clj:13)
+    formatting_stack.background$eval44393$fn__44394.invoke (background.clj:12)
+    clojure.core$binding_conveyor_fn$fn__5754.invoke (core.clj:2030)
+    clojure.lang.AFn.call (AFn.java:18)
+    java.util.concurrent.FutureTask.run (FutureTask.java:264)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1128)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:628)
+    java.lang.Thread.run (Thread.java:834)
+
+src/drewverlee/integrant_repl.clj
+  :formatting-stack/line-length
+    33:131 Line exceeding 130 columns.
+
+2 exceptions occurred
+1 warnings found
+
